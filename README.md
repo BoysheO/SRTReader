@@ -6,7 +6,7 @@ Simple srt reader
 # Quickly Start
 ```C#
 var ins = new SRTReader();
-ins.Load(<your srt string>);//you can call Load any times for reuse SRTReader
+ins.Load(<your srt string>);//you can call Load() for reusing SRTReader
 ```
 
 ```C#
